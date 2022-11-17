@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>I CAN HAZ MEMEZ?</h1>
+      <form id="memeform" action="">
+        <label for="">
+          Image URL:
+          <input
+            type="text"
+            name="imglink"
+            placeholder="Paste the link image"
+          />
+        </label>
+        <label for="">
+          Text on top:
+          <input
+            type="text"
+            name="toptext"
+            placeholder="Enter text which goes on the top of your meme"
+          />
+        </label>
+        <label for="">
+          Text on bottom:
+          <input
+            type="text"
+            name="bottomtext"
+            placeholder="Enter text which goes on the bottom of your meme"
+          />
+        </label>
+        <input type="submit" value="Reveal my meme" />
+      </form>
+    </div>
+    <div class="memeboard"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
